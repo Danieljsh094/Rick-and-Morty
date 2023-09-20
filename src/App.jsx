@@ -30,7 +30,7 @@ function App() {
     <div className='container'>
       <img className='container__title' src="/rick.jpg" alt="" />
       <form className='container__form' onSubmit={handleSubmit}>
-        <input ref={inputSearch} type="text" />
+        <input ref={inputSearch} type="text" placeholder='Number from 1 to 126' />
         <button>Search</button>
       </form>
       {
